@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Matt & Frances | The Wedding</title>
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;600&family=Montserrat:wght@300;400;500&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <!-- Fixed Border Frame -->
+  <div class="frame"></div>
+
+  <nav class="nav-bar">
+    <div class="nav-logo">M & F</div>
+    <ul class="nav-links">
+      <li><a href="#hero">Home</a></li>
+      <li><a href="#details">Details</a></li>
+      <li><a href="#accommodations">Accommodations</a></li>
+    </ul>
+  </nav>
+
+  <main class="scroller">
+    <section id="hero" class="snap-section hero-section">
+      <div class="hero-content">
+        <p class="pre-title">The Wedding of</p>
+        <h1 class="main-title">Matt <span class="amp">&</span> Frances</h1>
+        <p class="date">October 17th, 2026</p>
+      </div>
+      <div class="hero-image-container">
+        <!-- 
+            To replace this image:
+            1. Add your new image to the 'public' folder.
+            2. Update the src below to match your filename (e.g., src="/my-new-photo.jpg")
+          -->
+        <img src="/hero.png" alt="Matt and Frances" class="hero-image" />
+      </div>
+    </section>
+
+    <section id="welcome" class="snap-section welcome-section">
+      <div class="welcome-container">
+        <div class="welcome-text">
+          <h2>Welcome</h2>
+          <p>Welcome to our wedding website! We are so grateful to have you in our lives and can't wait to share our
+            special day with you. Your love and support mean the world to us.</p>
+          <p class="signatures">- Matt & Frances</p>
+        </div>
+        <div class="welcome-image">
+          <img src="/welcome_placeholder.png" alt="Welcome" />
+        </div>
+      </div>
+    </section>
+
+    <section id="details" class="snap-section details-section">
+      <div class="details-container">
+        <div class="info-block">
+          <h2>The Location</h2>
+          <p><strong>Ceremony:</strong><br>Grace-St. Luke's Episcopal Church</p>
+          <p><strong>Cocktail hour:</strong><br>Peabody Hotel Rooftop</p>
+          <p><strong>Dinner & Dancing:</strong><br>Peabody Hotel Skyway Ballroom</p>
+          <a href="https://maps.google.com" target="_blank" class="text-link">View Map</a>
+        </div>
+        <div class="info-block">
+          <h2>The Schedule</h2>
+          <p class="coming-soon">Coming Soon</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="accommodations" class="snap-section cta-section">
+      <div class="cta-content">
+        <div class="cta-image">
+          <!-- Replace with /hotel-name.jpg in public folder -->
+          <img src="/hotel.png" alt="Hotel Interior" />
+        </div>
+        <div class="cta-text">
+          <h2>Stay With Us</h2>
+          <p>We've reserved a block of rooms at The Peabody Hotel for our guests.</p>
+          <!-- REPLACE # BELOW WITH ACTUAL BOOKING URL -->
+          <a href="https://reservations.travelclick.com/95096?groupID=5014289" target="_blank" class="btn-primary">Book
+            Your Room</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="footer" class="footer-section">
+      <div class="footer-container">
+        <span class="footer-msg">Our Story, RSVP & Registry Coming Soon</span>
+        <a href="mailto:MattAndFrances2026@gmail.com" class="btn-outline">Contact</a>
+      </div>
+    </section>
+  </main>
+
+  <script type="module" src="/src/main.js"></script>
+</body>
+
+</html>
